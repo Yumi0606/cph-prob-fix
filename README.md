@@ -44,3 +44,46 @@ Fix the .prob files in the .cph folder that have become invalid due to changes i
                 processDirectory(filePath);
             }
 ```
+
+.prob文件字段意义
+
+```json
+{
+    "name": "回文字符串",  // 问题名称 显示在vscode中
+    "group": "AcWing", //问题所属网站名称
+    "url": "https://www.acwing.com/problem/content/5999/", //问题网址
+    "interactive": false,
+    "memoryLimit": 256,
+    "timeLimit": 1000,
+    "tests": [  //测试用例
+        {
+            "id": 1744098548624,
+            "input": "4\ngmgqlq\npdlbll\nqpp\naaa",
+            "output": "Yes\r\nNo\r\nNo\r\nYes\r\n"
+        },
+        {
+            "id": 1744105954763,
+            "input": "10\nnlryrnnryrlnb\nwzlqsqlzxblqll\nii\nppp\nsteetsblbqqbl\nzl\nuwbvb\nrtclrql\nmlqrqll\nnnfp",
+            "output": "Yes\nNo\nYes\nYes\nYes\nYes\nNo\nNo\nNo\nNo"
+        }
+    ],
+    "testType": "single",
+    "input": {
+        "type": "stdin"
+    },
+    "output": {
+        "type": "stdout"
+    },
+    "languages": {
+        "cpp": {
+            "mainClass": "Main",
+            "taskClass": "Task"
+        }
+    },
+    "batch": {
+        "id": "4dcff8f7-9bd6-463c-ffff-0471d7568d64", //设备的MachineGuid
+        "size": 1
+    },
+    "srcPath": "c:\\AcWing\\回文字符串.cpp" //文件路径
+}
+```
