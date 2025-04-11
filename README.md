@@ -4,6 +4,7 @@ Fix the .prob files in the .cph folder that have become invalid due to changes i
 
 ## How to use
 
+- 注意一下你需要确保`目标problem文件`的路径与对应.prob中`srcPath`的路径一致
 - 安装node 任何支持TypeScript的版本比如 node 22
 - 安装依赖 `npm install -g typescript crypto fs `
 - 把`fixProb.js` `fixProb.ts`两个文件放入需要修复的.cph文件夹下，或者包含所有.cph的文件夹,程序会自动递归下一级的.cph
